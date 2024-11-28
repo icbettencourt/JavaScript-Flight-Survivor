@@ -8,7 +8,7 @@ O jogo termina se o avião colidir com um drone.
 
 🚀 Como Jogar
 Baixe este repositório:
-  git clone https://github.com/seu-usuario/JavaScript-Flight-Survivor.git
+  git clone https://github.com/icbettencourt/JavaScript-Flight-Survivor.git
 Abra o arquivo airplane.html no navegador.
 
 🛠️ Tecnologias Utilizadas
