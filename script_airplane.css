@@ -1,0 +1,67 @@
+* {
+    font-family: "consolata", monospace;
+}
+
+#id_all {
+    /* border: 2px solid black; */
+    width: 800px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+#id_rules {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: small;
+}
+
+.rules {
+
+    padding: 0 20px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.buttons img {
+    margin-right: 10px;
+    width: 30px;
+}
+
+#id_up {
+    transform: rotate(180deg);
+}
+
+#id_down {
+    /* transform: rotate(180deg); */
+}
+
+#id_left {
+    transform: rotate(90deg);
+}
+
+#id_right {
+    transform: rotate(-90deg);
+}
+
+.bold {
+    font-weight: bold;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joguinho do Aviao</title>
+    <link rel="shortcut icon" href="images/airplane.png" type="image/x-icon">
+    <link rel="stylesheet" href="script_airplane.css">
+</head>
+
+<body>
+    <div id="id_all">
+        <h2>Joguinho do Avião</h2>
+
+        <canvas id="canvas" width="800" height="600">
+            O navegador não suporta o canvas!
+        </canvas>
+        <div id="id_rules">
+            <div class="rules">
+                <h3>Teclas:</h3>
+                <div class="buttons">
+                    <img src="images/arrow.png" alt="" id="id_up">
+                    move o avião para frente
+                </div>
+                <div class="buttons">
+                    <img src="images/arrow.png" alt="" id="id_down">
+                    move o aviao para trás
+                </div>
+                <div class="buttons">
+                    <img src="images/arrow.png" alt="" id="id_left">
+                    gira o avião no sentido anti-horário
+                </div>
+                <div class="buttons">
+                    <img src="images/arrow.png" alt="" id="id_right">
+                    gira o avião no sentido horário
+                </div>
+            </div>
+
+            <div class="rules">
+                <h3>Objetivos do jogo:</h3>
+                <p>
+                    <span class="bold">Controle o avião</span> com as setas do teclado para fugir aos drones durante o
+                    maior tempo possível.
+                </p>
+                <p>
+                    <span class="bold">A cada 10 segundos</span>, aumenta de nível.
+                </p>
+                <p>
+                    <span class="bold">Ao subir de nível:</span>
+                    <li>Aparece um novo drone na tela.</li>
+                    <li>Aumenta a velocidade tanto do avião quanto dos drones.</li>
+                </p>
+                <p>
+                    <span class="bold">O jogo termina</span> ao colidir com um dos drones.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Importa o script para o jogo do avião -->
+    <script src="script_airplane.js">
+    </script>
+</body>
+
+</html>
