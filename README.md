@@ -15,8 +15,6 @@ Abra o arquivo airplane.html no navegador.
 JavaScript: Lógica do jogo e interatividade.
 HTML: Estrutura básica do jogo.
 CSS: Estilo e design do jogo.
-📷 Captura de Tela (Opcional)
-Inclua uma captura de tela ou GIF mostrando o jogo em ação, por exemplo:
 
 🗺️ Melhorias Futuras (Opcional)
 Adicionar placar de pontuação.
